@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+header {
+  background-color: #004d40;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+section {
+  padding: 30px;
+  margin: 20px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.gallery img {
+  width: 30%;
+  border-radius: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: auto;
+}
+footer {
+  background-color: #004d40;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
